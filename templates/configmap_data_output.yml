@@ -1,0 +1,7 @@
+[OUTPUT]
+  Name cloudwatch_logs
+  Match   *
+  region ${region}
+  log_group_name ${cw_log_group}
+  log_stream_prefix ${cw_log_stream}
+  auto_create_group true
